@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-memory",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "A purely in-memory PouchDB, as a custom build",
   "main": "index.js",
   "keywords": [
@@ -9,25 +9,33 @@
   ],
   "author": "Nolan Lawson <nolan@nolanlawson.com>",
   "license": "Apache-2.0",
-  "dependencies": {
-    "pouchdb-adapter-http": "^6.0.3",
-    "pouchdb-adapter-memory": "^6.0.3",
-    "pouchdb-core": "^6.0.3",
-    "pouchdb-find": "^0.10.0",
-    "pouchdb-mapreduce": "^6.0.3",
-    "pouchdb-replication": "^6.0.3"
-  },
   "files": [],
+  "dependencies": {
+    "pouchdb-adapter-http": "^7.0.0",
+    "pouchdb-adapter-memory": "^7.0.0",
+    "pouchdb-core": "^7.0.0",
+    "pouchdb-find": "^7.0.0",
+    "pouchdb-mapreduce": "^7.0.0",
+    "pouchdb-replication": "^7.0.0"
+  },
+  "dependenciesComments": {
+    "pouchdb-adapter-http": "file:../pouchdb/packages/node_modules/pouchdb-adapter-http",
+    "pouchdb-adapter-memory": "file:../pouchdb/packages/node_modules/pouchdb-adapter-memory",
+    "pouchdb-core": "file:../pouchdb/packages/node_modules/pouchdb-core",
+    "pouchdb-find": "file:../pouchdb/packages/node_modules/pouchdb-find",
+    "pouchdb-mapreduce": "file:../pouchdb/packages/node_modules/pouchdb-mapreduce",
+    "pouchdb-replication": "file:../pouchdb/packages/node_modules/pouchdb-replication"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nolanlawson/pouchdb-memory.git"
+    "url": "git+https://github.com/chorpler/pouchdb-memory.git"
   },
   "bugs": {
-    "url": "https://github.com/nolanlawson/pouchdb-memory/issues"
+    "url": "https://github.com/chorpler/pouchdb-memory/issues"
   },
-  "homepage": "https://github.com/nolanlawson/pouchdb-memory#readme"
+  "homepage": "https://github.com/chorpler/pouchdb-memory#readme"
 }
